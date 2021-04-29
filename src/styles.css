@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+.content {
+    margin: 100px;
+    padding: 50px;
+}
+
+div.container {
+    background-color: #f4f7f2;
+    padding: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
