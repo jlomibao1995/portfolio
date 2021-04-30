@@ -5,3 +5,11 @@ h1 {
 div.card {
     margin-top: 30px;
 }
+
+div.container {
+    background: url(../../assets/projects.svg);
+    background-size: cover;
+    background-position: bottom center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+}

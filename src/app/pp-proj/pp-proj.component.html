@@ -1,102 +1,121 @@
 <div class="container">
-    <h2 class="display-5">Parkland Preschool Project</h2><hr>
-    <p class="lead">The Parkland Preschool website is a web-based service that allows users to access information and manage registration 
-        options related to students who are or may be attending Parkland Preschool. The website is intended to provide guardians with a modern 
-        enrollment experience and to eliminate the administrative overhead caused by maintaining a hardcopy system.</p>
-    <h4 class="display-6">Admin Functionality</h4>
-    <div id="adminCarousel" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#adminCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#adminCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#adminCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#adminCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#adminCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  <h2 class="display-5">Parkland Preschool Project</h2>
+  <hr>
+  <p class="lead">
+    The Parkland Preschool website is a web-based service that allows users to access information and manage
+    registration
+    options related to students who are or may be attending Parkland Preschool. The website is intended to provide
+    guardians with a modern
+    enrollment experience and to eliminate the administrative overhead caused by maintaining a hardcopy system.
+  </p>
+  <h4 class="display-6">System Specifications</h4>
+  <ul>
+    <li>Implemented with Java Servlets and JSP</li>
+    <li>Database made with MySQL</li>
+    <li>Application connection through EclipseLink JPA</li>
+    <li>Front end built with Bootstrap and WebFlow</li>
+    <li>Payment processing integrated with Paypal REST SDK</li>
+    <li>Development done through NetBeans API</li>
+    <li>Used Apache Tomcat as web server engine</li>
+    <li>Deployed through AWS EC2</li>
+  </ul>
+  
+  <h4 class="display-6">Admin Functionality</h4>
+  <div id="adminCarousel" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#adminCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#adminCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#adminCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#adminCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#adminCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="50000">
+        <img src="../../assets/pp_registrations.gif" class="d-block w-100" alt="registrations">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Manage Registrations</h5>
+          <p>An admin is able to view, accept, deny, deactivate, activate, and delete preschool registrations</p>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="50000">
-            <img src="../../assets/pp_registrations.gif" class="d-block w-100" alt="registrations">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Manage Registrations</h5>
-              <p>An admin is able to view, accept, deny, deactivate, activate, and delete preschool registrations</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="50000">
-            <img src="../../assets/pp_classes.gif" class="d-block w-100" alt="classes">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Manage Classes</h5>
-              <p>An admin is able to perform CRUD operations as well as manage waitlists for classes</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="50000">
-            <img src="../../assets/pp_payments.gif" class="d-block w-100" alt="payments">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>View Payments</h5>
-              <p>An admin can view payments in the system</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="50000">
-            <img src="../../assets/pp_printreg.gif" class="d-block w-100" alt="payments">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Print Registration</h5>
-              <p>An admin can print a registration form with the information filled in</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="50000">
-            <img src="../../assets/pp_reports.gif" class="d-block w-100" alt="payments">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Print Reports</h5>
-              <p>An admin can print reports for accounts, registrations, classes, and payments</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#adminCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#adminCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
+      <div class="carousel-item" data-bs-interval="50000">
+        <img src="../../assets/pp_classes.gif" class="d-block w-100" alt="classes">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Manage Classes</h5>
+          <p>An admin is able to perform CRUD operations as well as manage waitlists for classes</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="50000">
+        <img src="../../assets/pp_payments.gif" class="d-block w-100" alt="payments">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>View Payments</h5>
+          <p>An admin can view payments in the system</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="50000">
+        <img src="../../assets/pp_printreg.gif" class="d-block w-100" alt="payments">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Print Registration</h5>
+          <p>An admin can print a registration form with the information filled in</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="50000">
+        <img src="../../assets/pp_reports.gif" class="d-block w-100" alt="payments">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Print Reports</h5>
+          <p>An admin can print reports for accounts, registrations, classes, and payments</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#adminCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#adminCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-      <h4 class="display-6">Guardian Functionality</h4>
-    <div id="guardianCarousel" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#guardianCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#guardianCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#guardianCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <h4 class="display-6">Guardian Functionality</h4>
+  <div id="guardianCarousel" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#guardianCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#guardianCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#guardianCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="50000">
+        <img src="../../assets/pp_managechild.gif" class="d-block w-100" alt="manage child">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Manage Children</h5>
+          <p>A guardian can add, update, and delete child information from their account</p>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="50000">
-            <img src="../../assets/pp_managechild.gif" class="d-block w-100" alt="manage child">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Manage Children</h5>
-              <p>A guardian can add, update, and delete child information from their account</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="50000">
-            <img src="../../assets/pp_registrationchild.gif" class="d-block w-100" alt="register child">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Register Child</h5>
-              <p>A guardian can register their child to a class</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="50000">
-            <img src="../../assets/pp_paypal.gif" class="d-block w-100" alt="payments">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Parocess Payments</h5>
-              <p>A guardian can pay for their registration fees via PayPal</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#guardianCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#guardianCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-        
+      <div class="carousel-item" data-bs-interval="50000">
+        <img src="../../assets/pp_registrationchild.gif" class="d-block w-100" alt="register child">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Register Child</h5>
+          <p>A guardian can register their child to a class</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="50000">
+        <img src="../../assets/pp_paypal.gif" class="d-block w-100" alt="payments">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Parocess Payments</h5>
+          <p>A guardian can pay for their registration fees via PayPal</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#guardianCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#guardianCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
 </div>

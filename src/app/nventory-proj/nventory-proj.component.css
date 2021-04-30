@@ -1,8 +1,16 @@
+h4 {
+    margin: 20px;
+}
+
 div.carousel {
-    width: 1080px;
-    margin: auto;
+    padding: 50px;
 }
 
 h2 {
     padding: 20px;
+}
+
+div.container {
+    background: url(../../assets/city.svg);
+    background-size: cover;
 }

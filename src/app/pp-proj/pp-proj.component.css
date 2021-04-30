@@ -5,3 +5,8 @@ h4 {
 div.carousel {
     padding: 50px;
 }
+
+div.container {
+    background: url(../../assets/city.svg);
+    background-size: cover;
+}

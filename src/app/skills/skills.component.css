@@ -1,3 +1,10 @@
 ul {
     list-style: none;
 }
+
+div.container {
+    background: url(../../assets/coding.svg);
+    background-position: bottom center;
+    background-size: 800px;
+    background-repeat: no-repeat;
+}

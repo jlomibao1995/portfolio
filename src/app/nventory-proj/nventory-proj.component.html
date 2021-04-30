@@ -1,68 +1,86 @@
 <div class="container">
-    <h2 class="display-5">Home Nventory Application</h2><hr>
-    <p class="lead">This web-based application was designed to allow users to log in to their account and manage their home inventory</p>
+  <h2 class="display-5">Home Nventory Application</h2>
+  <hr>
+  <p class="lead">This web-based application was designed to allow users to log in to their account and manage their
+    home inventory</p>
+  <h4 class="display-6">System Specifications</h4>
+  <ul>
+    <li>Back end implemented as REST API with Spring Boot Framework</li>
+    <li>Database made with MySQL</li>
+    <li>Application connection through EclipseLink JPA</li>
+    <li>Front end built with Bootstrap and Angular Framework</li>
+    <li>Payment processing integrated with Paypal REST SDK</li>
+    <li>Development done through VS Code IDE</li>
+    <li>Deployed through AWS EC2</li>
+  </ul>
 
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade carousel-dark" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+        aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="50000">
+        <img src="../../assets/nventory_signup.gif" class="d-block w-100" alt="signup">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Sign up</h5>
+          <p>A user can sign up for an account</p>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="50000">
-            <img src="../../assets/nventory_signup.gif" class="d-block w-100" alt="signup">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Sign up</h5>
-              <p>A user can sign up for an account</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="50000">
-            <img src="../../assets/nventory_login.gif" class="d-block w-100" alt="login">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Login</h5>
-              <p>A user can login to their account</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="50000">
-            <img src="../../assets/nventory_add.gif" class="d-block w-100" alt="add item">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Add Item to Inventory</h5>
-              <p>A user can add an item to their inventory by filling in the name, price, and category</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="50000">
-            <img src="../../assets/nventory_edit.gif" class="d-block w-100" alt="edit item">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Edit Item in Inventory</h5>
-              <p>A user can edit an item in their inventory by filling in the name, price, and category</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="50000">
-            <img src="../../assets/nventory_delete.gif" class="d-block w-100" alt="delete item">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Delete Item in Inventory</h5>
-              <p>A user can delete an item in their inventory</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="50000">
-            <img src="../../assets/nventory_supdate.gif" class="d-block w-100" alt="payments">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Edit Account</h5>
-              <p>A user can change their name, email, and password</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-        
+      <div class="carousel-item" data-bs-interval="50000">
+        <img src="../../assets/nventory_login.gif" class="d-block w-100" alt="login">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Login</h5>
+          <p>A user can login to their account</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="50000">
+        <img src="../../assets/nventory_add.gif" class="d-block w-100" alt="add item">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Add Item to Inventory</h5>
+          <p>A user can add an item to their inventory by filling in the name, price, and category</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="50000">
+        <img src="../../assets/nventory_edit.gif" class="d-block w-100" alt="edit item">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Edit Item in Inventory</h5>
+          <p>A user can edit an item in their inventory by filling in the name, price, and category</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="50000">
+        <img src="../../assets/nventory_delete.gif" class="d-block w-100" alt="delete item">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Delete Item in Inventory</h5>
+          <p>A user can delete an item in their inventory</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="50000">
+        <img src="../../assets/nventory_supdate.gif" class="d-block w-100" alt="payments">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Edit Account</h5>
+          <p>A user can change their name, email, and password</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
 </div>
