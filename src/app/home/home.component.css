@@ -1,12 +1,14 @@
 div.container {
     background: url(../../assets/typing.svg);
     background-size: cover;
-    padding: 10%;
-    height: 100vh;
+    background-position: center center;
 }
 
-div.next-btn {
-    position: absolute;
-    bottom: 0;
-    left: 55%;
+h1 {
+    color: #11b8a4;
+    font-weight: bold;
+}
+
+div.row{
+    padding: 10px;
 }

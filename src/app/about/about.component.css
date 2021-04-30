@@ -1,13 +1,21 @@
 img {
-    max-width: 40%;
-}
+    max-width: 100%;
+    height: auto;
 
-
-h1 {
-    padding: 10px;
 }
 
 div.container {
     background: url(../../assets/aboutme.svg);
     background-size: cover;
+    background-position: center center;
+    height: fit-content;
+}
+
+div.col-sm {
+    background-color: rgba(229, 227, 241, 0.973);
+}
+
+div {
+    padding: 20px;
+    margin: 20px;
 }

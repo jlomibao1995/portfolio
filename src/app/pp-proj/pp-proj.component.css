@@ -1,9 +1,9 @@
 h4 {
-    margin: 20px;
+    margin: 30px;
 }
 
-div.carousel {
-    padding: 50px;
+h3 {
+    padding: 0;
 }
 
 div.container {
@@ -15,6 +15,7 @@ div.container {
     background-attachment: fixed;
 }
 
-div.row {
-    padding: 10px;
+div.text {
+    background-color: rgba(227, 240, 241, 0.973);
+    padding: 30px;
 }

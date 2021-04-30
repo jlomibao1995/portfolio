@@ -1,8 +1,11 @@
-div.container {
-    height: fit-content;
+img {
+    width: 50px;
 }
 
-img {
-    margin: 50px;
-    width: 50px;
+div.col {
+    padding: 20px;
+}
+
+div.container {
+    height: fit-content;
 }

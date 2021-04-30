@@ -4,11 +4,19 @@ ul {
 
 div.container {
     background: url(../../assets/coding.svg);
-    background-position: bottom center;
-    background-size: 800px;
+    /* background-color: rgba(229, 227, 241, 0.76);
+    background-blend-mode: lighten; */
+    background-size: 80%;
     background-repeat: no-repeat;
+    background-position: center bottom;
 }
 
 div.row {
-    padding: 50px;
+    padding: 20px;
+    margin: 30px;
+    background-color: rgba(229, 227, 241, 0.973);
+}
+
+li {
+    font-weight: bold;
 }

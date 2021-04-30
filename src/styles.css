@@ -4,7 +4,8 @@
 }
 
 div.container {
-    padding: 50px;
+    padding: 30px;
+    margin: 50px;
     height: 100vh;
 }
 
@@ -25,6 +26,10 @@ a {
     color: #11b8a4;
 }
 
+a:hover {
+    color: #08534b;
+}
+
 a.next-btn:hover {
     color: #c6e9e5;
 }
@@ -39,5 +44,18 @@ button {
 
 button:hover {
     background-color: #11b8a4;
+}
+
+div.next-btn {
+    position: fixed;
+    bottom: 0;
+    margin: 10px;
+    left: 55%;
+}
+
+div.right {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 0%;
 }
 

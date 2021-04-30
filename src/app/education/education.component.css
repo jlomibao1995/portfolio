@@ -1,12 +1,12 @@
-h2 {
-    padding-top: 20px;
-}
 
 div.container {
     background: url(../../assets/education.svg);
     background-size: cover;
+    background-position: center center;
 }
 
 div.row {
-    padding: 50px;
+    padding: 20px;
+    margin: 30px;
+    background-color: rgba(227, 240, 241, 0.973);
 }
