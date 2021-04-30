@@ -1,0 +1,8 @@
+div.container {
+    height: fit-content;
+}
+
+img {
+    margin: 50px;
+    width: 50px;
+}

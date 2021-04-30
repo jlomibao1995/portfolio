@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-project',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProjectComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _route: Router) { }
 
   ngOnInit(): void {
+  }
+
+  goToPreschoolProject(){
+    this._route.navigateByUrl("/parklandpreschoolproject");
+  }
+
+  goToInventoryApp(){
+    this._route.navigateByUrl("/homeinventoryapp");
   }
 
 }

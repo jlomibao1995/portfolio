@@ -6,3 +6,7 @@ div.container {
     background: url(../../assets/education.svg);
     background-size: cover;
 }
+
+div.row {
+    padding: 50px;
+}

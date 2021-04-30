@@ -11,7 +11,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProjectComponent } from './project/project.component';
 import { NventoryProjComponent } from './nventory-proj/nventory-proj.component';
 import { PpProjComponent } from './pp-proj/pp-proj.component';
-
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { MainComponent } from './main/main.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,9 @@ import { PpProjComponent } from './pp-proj/pp-proj.component';
     SkillsComponent,
     ProjectComponent,
     NventoryProjComponent,
-    PpProjComponent
+    PpProjComponent,
+    PageNotFoundComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

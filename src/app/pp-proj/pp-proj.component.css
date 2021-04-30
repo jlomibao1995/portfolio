@@ -9,4 +9,12 @@ div.carousel {
 div.container {
     background: url(../../assets/city.svg);
     background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.row {
+    padding: 10px;
 }

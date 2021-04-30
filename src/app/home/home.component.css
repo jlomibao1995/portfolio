@@ -4,3 +4,9 @@ div.container {
     padding: 10%;
     height: 100vh;
 }
+
+div.next-btn {
+    position: absolute;
+    bottom: 0;
+    left: 55%;
+}

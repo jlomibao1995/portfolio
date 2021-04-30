@@ -8,3 +8,7 @@ div.container {
     background-size: 800px;
     background-repeat: no-repeat;
 }
+
+div.row {
+    padding: 50px;
+}
