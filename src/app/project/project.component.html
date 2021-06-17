@@ -1,7 +1,9 @@
-<div class="container">
-    <h1 class="display-4"><img src="../../assets/idea.svg" alt="light bulb icon" width="70px" /> Projects</h1>
+<div class="container  my-5">
+    <div data-aos="fade-up">
+        <h1 class="display-4"><img src="../../assets/idea.svg" alt="light bulb icon" width="70px" /> Projects</h1>
+    </div>
     <hr>
-    <div class="row">
+    <div class="row" data-aos="fade-right" data-aos-duration="1500">
         <div class="col">
             <div class="card">
                 <a href="/parklandpreschoolproject"><img src="../../assets/pp_login.png" class="card-img-top"
@@ -10,10 +12,14 @@
                     <h5 class="card-title">Parkland Preschool</h5>
                     <p class="card-text">Web-based registration and payment system implemented as a Java Web Applicaiton
                         for a preschool</p>
-                    <button (click)="goToPreschoolProject()">See details</button>
-                    <div class="right"><a href="https://www.parklandpreschool.live/" target="_blank">Visit Site</a>
-                    </div>
-
+                        <div class="row">
+                            <div class="col">
+                                <a class="btn btn-secondary" href="/parklandpreschoolproject">See Details</a>
+                            </div>
+                            <div class="col-auto">
+                                <a class="btn btn-outline-dark" href="https://registrationportal.parklandpreschool.com/" target="_blank">Visit Site</a>
+                            </div>
+                        </div>
                 </div>
             </div>
         </div>

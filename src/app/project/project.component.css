@@ -8,3 +8,11 @@ div.container {
     background-repeat: no-repeat;
     background-position: center bottom;
 }
+
+a.btn {
+    border: 0px;
+    background-color: #11b8a4;
+    padding: 20px;
+    color: white;
+    margin: 20px;
+}
