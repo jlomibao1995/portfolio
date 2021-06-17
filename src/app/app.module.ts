@@ -13,6 +13,7 @@ import { NventoryProjComponent } from './nventory-proj/nventory-proj.component';
 import { PpProjComponent } from './pp-proj/pp-proj.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { MainComponent } from './main/main.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { MainComponent } from './main/main.component';
     NventoryProjComponent,
     PpProjComponent,
     PageNotFoundComponent,
-    MainComponent
+    MainComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

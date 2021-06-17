@@ -2,10 +2,9 @@ img {
     width: 50px;
 }
 
-div.col {
-    padding: 20px;
-}
-
-div.container {
-    height: fit-content;
+div.container-fluid {
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-color: #11b8a5cc;
 }

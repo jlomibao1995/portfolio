@@ -9,13 +9,10 @@ h3 {
 div.container {
     background: url(../../assets/city.svg);
     background-size: cover;
-    height: 100%;
-    width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 div.text {
-    background-color: rgba(227, 240, 241, 0.973);
-    padding: 30px;
+    background-color: rgba(227, 240, 241, 0.836);
 }

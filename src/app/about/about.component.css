@@ -1,6 +1,5 @@
 img {
     max-width: 100%;
-    height: auto;
 
 }
 
@@ -11,11 +10,6 @@ div.container {
     height: fit-content;
 }
 
-div.col-sm {
+div.col-sm-3 {
     background-color: rgba(229, 227, 241, 0.973);
-}
-
-div {
-    padding: 20px;
-    margin: 20px;
 }
